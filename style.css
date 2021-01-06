@@ -1,0 +1,122 @@
+body {
+    font-family: 'Xanh Mono', monospace;
+    margin: 0 auto;
+    width: 80%;
+}
+.first-section, .about-me{
+    height: 500px;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(218, 47, 47);
+}
+h2{
+    font-size: 40px;
+    margin: 30px 10px ;
+    color: darkgray;
+}
+p{
+    color: crimson;
+}
+.first {
+    color: rgb(39, 71, 212);
+}
+.half {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 450px;
+    height: 400px;
+}
+.Link {
+    text-decoration: none;
+    background-image: linear-gradient(45 deg, rgb(185, 235, 183), rgb(177, 176, 233));
+    background-color: chocolate;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(230, 213, 213);
+    font-weight: 700;
+}
+.full {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.full img {
+    width: 100%;
+}
+.project-area{
+    height: 500px;
+    margin: 10px auto;
+}
+.project-head h2{
+    text-align: center;
+}
+.last {
+    color: darkkhaki;
+}
+.project-up h2{
+    text-align: center;
+}
+.project-down .full-block{
+     float: left;
+     width: 30%;
+     margin: 10px;
+     box-shadow: 5px 5px 10px gray;
+     border-radius: 10px;
+     height: 100%;
+     text-align: center;
+}
+.full-block h2{
+    font-size: 25px;
+}
+.full-block img{
+    width: 100%;
+}
+#stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(129, 129, 56), rgb(238, 106, 106));
+    border-image-slice: 1;
+}
+#half-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(137, 231, 109), red);
+    border-image-slice: 1;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(206, 149, 149), rgb(65, 226, 65));
+    border-image-slice: 1;
+}
+.last{
+    height: 250px;
+}
+.last-part{
+    background-image: url(image/Group_33094_1.png);
+    width: 72%;
+    height: 200px;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    vertical-align:middle;
+}
+.last-part h1{
+    color: white;
+    float: left;
+    display: inline;
+    padding: 60px 0;
+    margin: 0;
+}
+.last-part .Link{
+    float: right;
+    margin: 80px 0;
+}
+footer h4{
+    text-align: center;
+    color: brown;
+}
